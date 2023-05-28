@@ -90,6 +90,3 @@ async function getAllNFTs() {
 function getUrl(ipfs) {
     return "http://localhost:8080/ipfs" + ipfs.split(":")[1].slice(1);
 }
-function wow() {
-    console.log("hello");
-}
